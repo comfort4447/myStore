@@ -1,6 +1,6 @@
 
 <form class="product-container" (ngSubmit) = "submitAddToCart(productItem)">
-    <a routerLink = "{{ productItem.id }}">
+    <a routerLink = "/product/{{ productItem.id }}">
         <img class="product-image" src = "{{productItem.url}}"/>   
     </a>
     <p>{{ productItem.name }}</p>
