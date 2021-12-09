@@ -1,0 +1,51 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+p{
+    font-size: 20px;
+}
+
+.product-image{
+    list-style: none;
+    width: 290px;
+    padding: 20px;
+    margin: 6px 6px;
+    border: 1px solid #33B5E5;
+}
+
+.product-container{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.select-input{
+    width: 108px;
+    margin-bottom: 8px;
+    font-size:15px;
+}
+/**
+
+
+
+
+.product-index {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1024px;
+    margin-bottom: 64px;
+  }
+
+
+
+p{
+    margin: 10px;
+}
+
+**/
+
+
