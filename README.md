@@ -56,9 +56,12 @@ Spec files are created for components, but they are not fleshed out, so tests cu
 
 #### Project Structure
 
+- *NavBar* displays the list of all components created for easy navigation.
 - *Product list* page, which displays the available products for the user to choose and add to their cart (in various quantities)
 - *Product details* page, which displays more information about any particular product
 - *Cart*, which includes the products that the user has added to their cart
 - *Confirmation page*, which shows the outcome after the user completes the checkout process (i.e., submits the checkout form)
+
+- 
 
 - `data.json`. Project fetches product information from this included file to populate the store.
